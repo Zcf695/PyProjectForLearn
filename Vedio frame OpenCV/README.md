@@ -43,15 +43,14 @@ pip install opencv-python numpy pillow
 
 ### 使用方法
 
-#### 方法一：直接运行脚本
+#### 直接运行脚本
 
 ```bash
 python video_interpolation_tool.py
 ```
 
-#### 方法二：使用可执行文件
 
-直接运行 `dist/视频插帧工具.exe`（如已生成）
+
 
 ## 功能说明
 
@@ -141,3 +140,4 @@ MIT License
 ## 更新日志
 
 - v1.0：初始版本，支持基本的视频插帧功能
+
