@@ -1,0 +1,10 @@
+path: C:\Users\15142\Desktop\fj\dataset
+train: images/train
+val: images/valid
+test: images/test
+
+nc: 3
+names:
+  0: raw
+  1: half-ripe
+  2: ripe
