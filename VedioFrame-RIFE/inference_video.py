@@ -7,6 +7,13 @@ from tqdm import tqdm
 from torch.nn import functional as F
 import warnings
 import _thread
+
+# NumPy 1.24+ compatibility: restore deprecated type aliases used by skvideo
+if not hasattr(np, 'float'):
+    np.float = np.float64
+if not hasattr(np, 'int'):
+    np.int = np.int_
+
 import skvideo.io
 from queue import Queue, Empty
 from model.pytorch_msssim import ssim_matlab
